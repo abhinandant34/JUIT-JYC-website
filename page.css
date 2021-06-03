@@ -1,0 +1,454 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.heading {
+  margin-top: 7%;
+  text-align: center;
+}
+.row-page {
+  text-align: center;
+  display: flex;
+}
+.logo {
+  margin: 20px;
+}
+.description {
+  padding: 3%;
+}
+p {
+  font-size: 20px;
+}
+.card {
+  display: grid;
+  grid-template-columns: 350px;
+  grid-template-rows: 300px 0px 90px;
+  grid-template-areas: "image" "text";
+  max-width: 350px;
+  min-width: 350px;
+  border-radius: 18px;
+  background: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+  text-align: center;
+}
+.card-image {
+  grid-area: image;
+}
+.card-text {
+  grid-area: text;
+}
+.card-image-ldf1 {
+  grid-area: image;
+  background: url("images/ldf1.jpeg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-ldf2 {
+  grid-area: image;
+  background: url("images/ldf2\ \(1\).jpeg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-tmf {
+  grid-area: image;
+  background: url(images/ldImage1.jpg);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-lds1 {
+  grid-area: image;
+  background: url("/images/jyc-council/Bhawna-dey-literary-min.webp");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-lds2 {
+  grid-area: image;
+  background: url("/images/jyc-council/simran-gohan-literary-min.webp");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-tms1 {
+  grid-area: image;
+  background: url("images/jyc-council/shagun-sharma-theatre-min.webp");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-tms2 {
+  grid-area: image;
+  background: url("images/jyc-council/vaibhav-thakur-theatre-min.webp");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-ccf {
+  grid-area: image;
+  background: url("images/cImage1.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-ccs1 {
+  grid-area: image;
+  background: url("/images/JYC-council/hiteshwar-singh-cultural-min.webp");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-ccs2 {
+  grid-area: image;
+  background: url("/images/JYC-council/Astha-singh-rathore-cultural-min.webp");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-eehf1 {
+  grid-area: image;
+  background: url("images/heImage1.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-eehf2 {
+  grid-area: image;
+  background: url(images/heImage2.jpg);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-eehs1 {
+  grid-area: image;
+  background: url("/images/JYC-council/diwakar-srivastava-environment-min.webp");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-eehs2 {
+  grid-area: image;
+  background: url("/images/JYC-council/kajal-singh-environment-min.webp");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-fcf1 {
+  grid-area: image;
+  background: url(images/spImage1.jpg);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-fcf2 {
+  grid-area: image;
+  background: url(images/spImage2.jpg);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-fcs1 {
+  grid-area: image;
+  background: url("images/JYC-council/ishita-kapoor-president-min.webp");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-fcs2 {
+  grid-area: image;
+  background: url("images/JYC-council/pradyuman-sharma-treasurer-min.webp");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-caf {
+  grid-area: image;
+  background: url(images/spImage2.jpg);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-cas1 {
+  grid-area: image;
+  background: url("images/JYC-council/saijal-verma-arts-min.webp");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-cas2 {
+  grid-area: image;
+  background: url("images/JYC-council/Chaitanya-Moghe-arts.jpeg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-tcf1 {
+  grid-area: image;
+  background: url(images/tcImage1.jpg);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-tcf2 {
+  grid-area: image;
+  background: url(images/tcf2.jpeg);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-tcs1 {
+  grid-area: image;
+  background: url("images/JYC-council/apoorv-vats-technical-min.webp");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-tcs2 {
+  grid-area: image;
+  background: url("images/JYC-council/harshit-sharma-technical-min.webp");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-tcs3 {
+  grid-area: image;
+  background: url("images/JYC-council/angima-anthwal-tech-min.webp");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-scf1 {
+  grid-area: image;
+  background: url(images/sImage1.jpg);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-scf2 {
+  grid-area: image;
+  background: url(images/scf2.jpg);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-scs1 {
+  grid-area: image;
+  background: url(images/JYC-council/sanya-kanwar-sports-min.webp);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-scs2 {
+  grid-area: image;
+  background: url(images/JYC-council/Parth-bali-sports-min.webp);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-scs3 {
+  grid-area: image;
+  background: url(images/JYC-council/Vidit-jindal-sports-min.webp);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-ecf1 {
+  grid-area: image;
+  background: url(images/ecf1.jpg);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-ecf2 {
+  grid-area: image;
+  background: url(images/ecf2.jpg);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-ecs1 {
+  grid-area: image;
+  background: url(/images/JYC-council/ujjwal-kumar-event-min.webp);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-ecs2 {
+  grid-area: image;
+  background: url(/images/JYC-council/saksham-verma-event-min.webp);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-ecs3 {
+  grid-area: image;
+  background: url(/images/JYC-council/kiara-tickoo-event-min.webp);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-dcf1 {
+  grid-area: image;
+  background: url(images/dImage1.jpg);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-dcf2 {
+  grid-area: image;
+  background: url(images/dImage2.jpg);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-dcf3 {
+  grid-area: image;
+  background: url(images/dImage3.jpg);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-dcf4 {
+  grid-area: image;
+  background: url(images/dImage4.jpg);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-dcs1 {
+  grid-area: image;
+  background: url(images/JYC-council/rishabh-sharma-disciplinary-min.webp);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-dcs2 {
+  grid-area: image;
+  background: url(images/JYC-council/rudresh-sharma-disc-min.webp);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-dcs3 {
+  grid-area: image;
+  background: url(images/JYC-council/dcs3.jpeg);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-dcs4 {
+  grid-area: image;
+  background: url(images/JYC-council/gunjan-disciplinary-min.webp);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-hf1 {
+  grid-area: image;
+  background: url(images/rhImage1.jpg);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-hf2 {
+  grid-area: image;
+  background: url(images/rhImage2.jpg);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-hs1 {
+  grid-area: image;
+  background: url(/images/JYC-council/megha-tushir-registration-min.webp);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-hs2 {
+  grid-area: image;
+  background: url(images/JYC-council/md-kounen-khan-registration-min.webp);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-hs3 {
+  grid-area: image;
+  background: url(images/JYC-council/hs3.jpeg);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-mpf1 {
+  grid-area: image;
+  background: url(images/pcImage1.jpg);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+.card-image-mps1 {
+  grid-area: image;
+  background: url(images/JYC-council/Suryansh-Saraswat-mnp-min.webp);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+.card-image-mps2 {
+  grid-area: image;
+  background: url(images/JYC-council/ameesha-varma-mnp-min.webp);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+h2 {
+  text-align: center;
+}
+.photo-card {
+  margin-top: 18px;
+  margin-left: 39%;
+}
+.student {
+  margin-top: 4%;
+}
+.student-row {
+  padding-left: 20%;
+  display: flex;
+  margin-top: 18px;
+}
+.photo-card-s {
+  padding: 4%;
+  padding-top: 0%;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+footer {
+  margin-top: 2%;
+}
+@media only screen and (max-width: 600px) {
+  .row-page {
+    flex-direction: column;
+  }
+  .photo-card {
+    margin-top: 15px;
+    margin-left: 8%;
+  }
+  .student-row {
+    flex-direction: column;
+    padding-left: 3%;
+  }
+  .heading {
+    margin-top: 14%;
+  }
+}
+h2 {
+  font-weight: bold;
+}
+h1 {
+  font-weight: bold;
+}
